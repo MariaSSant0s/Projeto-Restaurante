@@ -5,8 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Projeto Restaurante | Sistema de Gerenciamento</title>
 
-  <!-- Fonte Google -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
@@ -17,13 +16,14 @@
 <header>
   <div class="nav">
     <div class="logo">
-      <div class="logo-mark">LOGO</div>
-      Projeto Restaurante 
+      
+      <img src="./img/logoBranca.png">
     </div>
     <nav>
       <ul>
         <li><a href="#sobre">Sobre</a></li>
         <li><a href="#video">Vídeo</a></li>
+                <li><a href="#prototipo">Protótipo</a></li>
         <li><a href="#processo">Processo</a></li>
         <li><a href="#time">Nosso Time</a></li>
       </ul>
@@ -32,8 +32,7 @@
 </header>
 
 <main>
-  <!-- HERO -->
-  <section id="sobre" class="hero">
+    <section id="sobre" class="hero">
     <div class="hero-card">
       <h1 class="hero-heading">
         Facilite a gestão do seu restaurante, simplifique o seu dia a dia.
@@ -55,8 +54,7 @@
     </div>
   </section>
 
-  <!-- COMO TRABALHAMOS -->
-  <section class="work-section">
+    <section class="work-section">
     <div class="container">
       <h2 class="section-title">Como trabalhamos</h2>
       <p class="section-subtitle">Principais pilares do sistema.</p>
@@ -83,8 +81,7 @@
     </div>
   </section>
 
-  <!-- VÍDEO -->
-  <section id="video" class="video-section">
+    <section id="video" class="video-section">
   <div class="container">
     <h2 class="section-title">Vídeo</h2>
     <p class="section-subtitle">Uma visão geral do projeto em funcionamento.</p>
@@ -97,8 +94,10 @@
     </div>
   </div>
 </section>
-  <!-- PROCESSO -->
-  <section id="processo">
+
+
+
+    <section id="processo">
     <div class="container">
       <h2 class="section-title">Processo</h2>
       <p class="section-subtitle">Etapas que ajudaram a tirar a ideia do papel.</p>
@@ -117,51 +116,64 @@
         </div>
 
         <div class="process-item">
-          <div class="process-thumb"> <img src="img/storyboard.jpeg" alt=""></div>
+          <figure class="process-thumb"> 
+                <img src="img/storyboard.jpeg" alt="Ilustração do Storyboard do projeto">
+            </figure>
           <div class="process-label">Storyboard</div>
           <span>Construção de cenários de uso e telas-chave para testar a navegação e a usabilidade.</span>
         </div>
       </div>
-
-     
     </div>
+
   </section>
 
-  <!-- NOSSO TIME -->
-  <section id="time" class="team-section">
+  <section id="prototipo" class="prototipo-section">
+    <div class="container">
+        <h2 class="section-title">Protótipo</h2>
+        <p class="section-subtitle">Veja o protótipo navegável ou o arquivo original do projeto no Figma.</p>
+
+        <div class="prototipo-box">
+          
+         <iframe 
+                style="border: 1px solid rgba(0, 0, 0, 0.1);" 
+                width="100%" 
+                height="450" 
+                 src="https://embed.figma.com/design/E4fTgZXH4eKlBRuIsM05M9/Defini%C3%A7%C3%B5es-Design-Projeto?embed-host=share&hide-ui=1"
+                allowfullscreen>
+            </iframe>
+            
+        </div>
+    </div>
+</section>
+    <section id="time" class="team-section">
     <div class="container">
       <h2 class="team-title">Nosso Time</h2>
-      <div class="team-divider"></div>
+      <hr class="team-divider">
 
       <div class="team-grid">
         <div class="team-card">
-          <div class="team-photo"><img src="img/maria.jpeg" alt=""></div>
+          <div class="team-photo"><img src="img/maria.jpeg" alt="Foto de Maria Santos"></div>
           <div class="team-name">Maria Santos</div>
-         
         </div>
 
         <div class="team-card">
-          <div class="team-photo"><img src="img/thais.jpeg" alt=""></div>
+          <div class="team-photo"><img src="img/thais.jpeg" alt="Foto de Kauana Beatriz"></div>
           <div class="team-name">Kauana Beatriz</div>
-          
         </div>
 
         <div class="team-card">
-          <div class="team-photo"><img src="img/kauana.jpeg" alt=""></div>
+          <div class="team-photo"><img src="img/kauana.jpeg" alt="Foto de Thais Souza"></div>
           <div class="team-name">Thais Souza</div>
-         
         </div>
 
         <div class="team-card">
-          <div class="team-photo"><img src="img/evellyn.png" alt=""></div>
+          <div class="team-photo"><img src="img/evellyn.png" alt="Foto de Evellyn Cipriano"></div>
           <div class="team-name">Evellyn Cipriano</div>
-          
         </div>
 
         <div class="team-card">
-          <div class="team-photo"><img src="img/hideki.jpeg" alt=""></div>
+          <div class="team-photo"><img src="img/hideki.jpeg" alt="Foto de Matheus Hideki"></div>
           <div class="team-name">Matheus Hideki</div>
-          
         </div>
       </div>
     </div>
