@@ -459,11 +459,20 @@
       }
 
       .video-box {
-        /* height: 230px; */
+        
       }
 
-      /* Ajuste a altura para dispositivos móveis */
       .prototipo-box {
         height: 300px;
       }
     }
+.miro-section {
+  padding: 60px 0;
+}
+
+.miro-box {
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.1);
+}
